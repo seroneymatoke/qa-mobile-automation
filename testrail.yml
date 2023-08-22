@@ -1,0 +1,17 @@
+base_url: https://sharecare.testrail.io
+projects:
+  - name: '{branch}'
+    id: 1
+    # suite_id: 851
+    # suite 83 - Core
+    #suite 845 - Smoke
+    # suite 31 - Deeplinks
+    # @TODO parameterize this
+    suite_id: 23
+    # note: this will allow any branch to push test case results to Testrail.
+    allowed_branch_pattern: '.*'
+  - name: '{branch}'
+    id: 1
+    suite_id: 83
+    # note: this will allow any branch to push test case results to Testrail.
+    allowed_branch_pattern: '.*'
